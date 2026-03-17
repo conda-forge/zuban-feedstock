@@ -10,3 +10,5 @@ conda_forge_output_validation: true
 provider:
   osx_arm64: azure
 test: native_and_emulated
+bot:
+  automerge: true
