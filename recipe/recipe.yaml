@@ -1,5 +1,5 @@
 context:
-  version: "0.6.2"
+  version: "0.7.0"
 
 package:
   name: zuban
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/zubanls/zuban/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: ca391febe8f7e0e48e1d9415ab0914bf27787b6bb5841a0d3c3eff0bf5971218
+    sha256: 099f618f773251405ab87f2b4cc1b618878336b616d4730fca5f53df566db6d4
   - url: https://github.com/python/typeshed/archive/0e9b8c99ba01717d737de8b01ed647ef2f2ac9e5.tar.gz
     sha256: 8f1ab8e6bb78da727159acad2369dc0c63d9fc96db19d24ad4fdd9536796d0fb
     target_directory: third_party/typeshed
