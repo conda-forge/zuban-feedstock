@@ -41,12 +41,10 @@ tests:
   - script:
       - zuban --help
       - zmypy --help
-      - zubanls --help
   - package_contents:
       bin:
         - zuban
         - zmypy
-        - zubanls
       strict: true
 
 about:
